@@ -12,3 +12,5 @@ services:
       - 5432:5432
 volumes:
   postgres-db:
+# postgresql://yourusername:yourpassword@localhost:5432/medusa_db
+
